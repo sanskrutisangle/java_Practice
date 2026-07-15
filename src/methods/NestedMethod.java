@@ -1,13 +1,14 @@
 package methods;
 
 public class NestedMethod {
-	public int calculate(int square) {
+	static int calculate(int square) {
 		return square*square;
 	}
-	public int  display() {
-		System.out.printlnI(calculate());
+	static  int  display() {
+		return calculate(9);
 	}
 	public static void main(String[] args) {
+		System.out.print(display());
 		
 	}
 
