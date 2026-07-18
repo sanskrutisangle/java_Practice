@@ -6,7 +6,7 @@ public class DefaultConstructor {
 		}
 
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		DefaultConstructor s=new DefaultConstructor();
 		System.out.println("this is main method ");
 	}
