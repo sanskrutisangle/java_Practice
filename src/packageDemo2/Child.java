@@ -6,6 +6,8 @@ public class Child extends Parent {
 
         Child obj = new Child();
 
-        System.out.println(obj.marks);  // ✅
+        System.out.println(obj.marks);  
+        
+        
     }
 }
