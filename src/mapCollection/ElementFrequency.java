@@ -10,7 +10,7 @@ public class ElementFrequency {
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int num : arr) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            map.put(num, map.getOrDefault(num, 0) + 1);//If the key exists, give me its value. If it doesn't exist, give me the default value."
         }
 
         System.out.println(map);
