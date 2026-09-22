@@ -1,5 +1,0 @@
-java
-Spring
-jdbc
-
-Spring Boot
