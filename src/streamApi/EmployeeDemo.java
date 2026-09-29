@@ -7,10 +7,10 @@ public class EmployeeDemo {
     public static void main(String[] args) {
 
         List<Employee> data = List.of(
-            new Employee("sanskruti", 8900000),
-            new Employee("sakshi", 100000),
-            new Employee("om", 300000),
-            new Employee("rahul", 700000)
+            new Employee("sanskruti","IT", 8900000),
+            new Employee("sakshi","HR", 100000),
+            new Employee("om","IT", 300000),
+            new Employee("rahul","HR", 700000)
         );
 
         data.stream()
